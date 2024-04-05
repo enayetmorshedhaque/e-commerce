@@ -1,0 +1,357 @@
+/* Custom Styling */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --background-white: #ffffff;
+  --background-black: #000000;
+
+  --grayscale-title-active-color: #14142b;
+  --grayscale-body-color: #4e4b66;
+  --grayscale-label-color: #6e7191;
+  --grayscale-placeholder-color: #a0a3bd;
+  --grayscale-line-color: #d9dbe9;
+  --grayscale-input-background-color: #eff0f6;
+  --grayscale-background-color: #d9dbe9;
+  --grayscale-off-white-color: #fcfcfc;
+
+  --color-theme-primary-color: #5f2eea;
+  --color-theme-secondary-color: #1cc8ee;
+  --color-theme-error-color: #ed2e7e;
+  --color-theme-success-color: #00ba88;
+  --color-theme-warning-color: #f4b740;
+  --color-theme-gradient-primary-color: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(120, 56, 247, 1) 0%,
+    rgba(124, 58, 255, 1) 0%,
+    rgba(207, 122, 255, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --color-theme-gradient-secondary-color: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(96, 80, 239, 1) 0%,
+    rgba(97, 83, 239, 1) 0%,
+    rgba(86, 169, 213, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --color-theme-gradient-accent-color: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(231, 8, 80, 1) 0%,
+    rgba(236, 15, 88, 1) 0%,
+    rgba(247, 159, 112, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  --primary-color-white-1: #ffffff;
+  --primary-color-dark-1: #363738;
+
+  --secondary-color-white-1: #f5f5f5;
+  --secondary-color-white-2: #fefaf1;
+  --secondary-color-dark-1: #db4444;
+
+  --text-color--white-1: #fafafa;
+  --text-color-dark-1: #7d8184;
+  --text-color-dark-2: #000000;
+  --button-or-card-color: #000000;
+
+  --button-one-color: #00ff66;
+  --button-two-color: #db4444;
+  --hover-button-one-color: #e07575;
+  --hover-button-two-color: #a0bce0;
+
+  /* Heading 110px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-110: 110px;
+  --heading-semibold-font-110: 110px;
+  --heading-medium-font-110: 110px;
+  --heading-regular-font-110: 110px;
+
+  --heading-bold-font-110-line-height: 115px;
+  --heading-semibold-font-110-line-height: 115px;
+  --heading-medium-font-110-line-height: 115px;
+  --heading-regular-font-110-line-height: 115px;
+
+  --heading-bold-font-110-letter-spacing: 3%;
+  --heading-semibold-font-110-letter-spacing: 3%;
+  --heading-medium-font-110-letter-spacing: 3%;
+  --heading-regular-font-110-letter-spacing: 3%;
+
+  /* Heading 90px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-90: 90px;
+  --heading-semibold-font-90: 90px;
+  --heading-medium-font-90: 90px;
+  --heading-regular-font-90: 90px;
+
+  --heading-bold-font-90-line-height: 98px;
+  --heading-semibold-font-90-line-height: 98px;
+  --heading-medium-font-90-line-height: 98px;
+  --heading-regular-font-90-line-height: 98px;
+
+  --heading-bold-font-90-letter-spacing: 5%;
+  --heading-semibold-font-90-letter-spacing: 5%;
+  --heading-medium-font-90-letter-spacing: 5%;
+  --heading-regular-font-90-letter-spacing: 5%;
+
+  /* Heading 64px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-64: 64px;
+  --heading-semibold-font-64: 64px;
+  --heading-medium-font-64: 64px;
+  --heading-regular-font-64: 64px;
+
+  --heading-bold-font-64-line-height: 68px;
+  --heading-semibold-font-64-line-height: 68px;
+  --heading-medium-font-64-line-height: 68px;
+  --heading-regular-font-64-line-height: 68px;
+
+  --heading-bold-font-64-letter-spacing: 5%;
+  --heading-semibold-font-64-letter-spacing: 5%;
+  --heading-medium-font-64-letter-spacing: 5%;
+  --heading-regular-font-64-letter-spacing: 5%;
+
+  /* Heading 54px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-54: 54px;
+  --heading-semibold-font-54: 54px;
+  --heading-medium-font-54: 54px;
+  --heading-regular-font-54: 54px;
+
+  --heading-bold-font-54-line-height: 64px;
+  --heading-semibold-font-54-line-height: 64px;
+  --heading-medium-font-54-line-height: 68px;
+  --heading-regular-font-54-line-height: 64px;
+
+  --heading-bold-font-54-letter-spacing: 6%;
+  --heading-semibold-font-54-letter-spacing: 6%;
+  --heading-medium-font-54-letter-spacing: 6%;
+  --heading-regular-font-54-letter-spacing: 6%;
+
+  /* Heading 48px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-48: 48px;
+  --heading-semibold-font-48: 48px;
+  --heading-medium-font-48: 48px;
+  --heading-regular-font-48: 48px;
+
+  --heading-bold-font-48-line-height: 52px;
+  --heading-semibold-font-48-line-height: 60px;
+  --heading-medium-font-48-line-height: 60px;
+  --heading-regular-font-48-line-height: 52px;
+
+  --heading-bold-font-48-letter-spacing: 4%;
+  --heading-semibold-font-48-letter-spacing: 4%;
+  --heading-medium-font-48-letter-spacing: 4%;
+  --heading-regular-font-48-letter-spacing: 4%;
+
+  /* Heading 36px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-36: 36px;
+  --heading-semibold-font-36: 36px;
+  --heading-medium-font-36: 36px;
+  --heading-regular-font-36: 36px;
+
+  --heading-bold-font-36-line-height: 30px;
+  --heading-semibold-font-36-line-height: 48px;
+  --heading-medium-font-36-line-height: 30px;
+  --heading-regular-font-36-line-height: 30px;
+
+  --heading-bold-font-36-letter-spacing: 4%;
+  --heading-semibold-font-36-letter-spacing: 4%;
+  --heading-medium-font-36-letter-spacing: 4%;
+  --heading-regular-font-36-letter-spacing: 4%;
+
+  /* Heading 32px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-32: 32px;
+  --heading-semibold-font-32: 32px;
+  --heading-medium-font-32: 32px;
+  --heading-regular-font-32: 32px;
+
+  --heading-bold-font-32-line-height: 30px;
+  --heading-semibold-font-32-line-height: 30px;
+  --heading-medium-font-32-line-height: 30px;
+  --heading-regular-font-32-line-height: 30px;
+
+  --heading-bold-font-32-letter-spacing: 4%;
+  --heading-semibold-font-32-letter-spacing: 4%;
+  --heading-medium-font-32-letter-spacing: 4%;
+  --heading-regular-font-32-letter-spacing: 4%;
+
+  /* Heading 24px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-24: 24px;
+  --heading-semibold-font-24: 24px;
+  --heading-medium-font-24: 24px;
+  --heading-regular-font-24: 24px;
+
+  --heading-bold-font-24-line-height: 24px;
+  --heading-semibold-font-24-line-height: 24px;
+  --heading-medium-font-24-line-height: 28px;
+  --heading-regular-font-24-line-height: 24px;
+
+  --heading-bold-font-24-letter-spacing: 3%;
+  --heading-semibold-font-24-letter-spacing: 3%;
+  --heading-medium-font-24-letter-spacing: 3%;
+  --heading-regular-font-24-letter-spacing: 3%;
+
+  /* Heading 20px Font Size, Line Height, Letter Spacing */
+  --heading-bold-font-20: 20px;
+  --heading-semibold-font-20: 20px;
+  --heading-medium-font-20: 20px;
+  --heading-regular-font-20: 20px;
+
+  --heading-bold-font-20-line-height: 20px;
+  --heading-semibold-font-20-line-height: 20px;
+  --heading-medium-font-20-line-height: 20px;
+  --heading-regular-font-20-line-height: 20px;
+
+  --heading-bold-font-20-letter-spacing: 3%;
+  --heading-semibold-font-20-letter-spacing: 3%;
+  --heading-medium-font-20-letter-spacing: 3%;
+  --heading-regular-font-20-letter-spacing: 3%;
+
+  /* Title 12px Font Size, Line Height */
+  --title-regular-font-12: 12px;
+  --title-medium-font-12: 12px;
+  --title-semibold-font-12: 12px;
+
+  --title-regular-font-12-line-height: 18px;
+  --title-medium-font-12-line-height: 18px;
+  --title-semibold-font-12-line-height: 18px;
+
+  /* Title 14px Font Size, Line Height */
+  --title-regular-font-14: 14px;
+  --title-medium-font-14: 14px;
+  --title-semibold-font-14: 14px;
+
+  --title-regular-font-14-line-height: 21px;
+  --title-medium-font-14-line-height: 21px;
+  --title-semibold-font-14-line-height: 21px;
+
+  /* Title 16px Font Size, Line Height */
+  --title-regular-font-16: 16px;
+  --title-medium-font-16: 16px;
+  --title-semibold-font-16: 16px;
+
+  --title-regular-font-16-line-height: 24px;
+  --title-medium-font-16-line-height: 24px;
+  --title-semibold-font-16-line-height: 20px;
+
+  /* Title 20px Font Size, Line Height */
+  --title-regular-font-20: 20px;
+  --title-medium-font-20: 20px;
+  --title-semibold-font-20: 20px;
+
+  --title-regular-font-20-line-height: 26px;
+  --title-medium-font-20-line-height: 28px;
+  --title-semibold-font-20-line-height: 28px;
+
+  /* Title 24px Font Size, Line Height */
+  --title-regular-font-24: 24px;
+  --title-medium-font-24: 24px;
+  --title-semibold-font-24: 24px;
+
+  --title-regular-font-24-line-height: 32px;
+  --title-medium-font-24-line-height: 32px;
+  --title-semibold-font-24-line-height: 32px;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: var(--background-white);
+  color: var(--text-color-dark-2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------------------------------- */
+/* ------------- Common CSS ------------- */
+/* -------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main {
+  flex: 1;
+}
+
+/* Top Header CSS*/
+.top-header-text {
+  font-size: var(--title-regular-font-14);
+  line-height: var(--title-regular-font-14-line-height);
+}
+
+/* Navbar CSS */
+.nav-link {
+  font-size: var(--title-regular-font-16);
+  line-height: var(--title-regular-font-16-line-height);
+}
+
+.nav-link.active,
+.nav-link:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 7px;
+}
+
+/* Footer CSS */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-title {
+  font-size: var(--title-regular-font-20);
+  line-height: var(--title-regular-font-20-line-height);
+}
+
+.footer-text {
+  font-size: var(--title-regular-font-16);
+  line-height: var(--title-regular-font-16-line-height);
+  color: var(--text-color--white-1);
+}
+
+.footer-text-small {
+  font-size: var(--title-medium-font-12);
+  line-height: var(--title-medium-font-12-line-height);
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: var(--background-white);
+  opacity: 0.2;
+  width: 100%;
+}
+
+.copyright-text {
+  font-size: var(--title-regular-font-16);
+  line-height: var(--title-regular-font-16-line-height);
+  color: var(--text-color--white-1);
+  opacity: 0.2;
+}
+
+.form-control {
+  border-right: none !important;
+}
+
+.input-group-text {
+  border-top: var(--bs-border-width) solid var(--bs-border-color);
+  border-right: var(--bs-border-width) solid var(--bs-border-color);
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+  border-left: none !important;
+}
