@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out | E-Commerce Figma Design</title>
+
+    <!-- Favicons -->
+    <link href="./assets/images/fav-icon/favicon.ico" rel="icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/bootstrap-5/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Icon CSS File -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <!-- Fontawesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/86bc96ac49.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme/theme.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar Starts Here -->
+    <header></header>
+    <!-- Navigation Bar Ends Here -->
+
+    <!-- Wrapper Starts Here -->
+    <div class="wrapper">
+      <!-- Main Content Starts Here -->
+      <div class="content">
+        <!-- Main Container Starts Here -->
+        <div class="container section-container">
+          <!-- Breadcumb Menu Starts Here -->
+          <nav aria-label="breadcrumb" class="mb-5">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="account.html">Account</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="my-account.html">My Account</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="product.html">Product</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="cart.html">View Cart</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Check Out
+              </li>
+            </ol>
+          </nav>
+          <!-- Breadcumb Menu Ends Here -->
+
+          <!-- Check Out Content Starts Here -->
+          <p class="content-heading">Billing Details</p>
+
+          <!-- Check Out Form Starts Here -->
+          <form action="" class="check-out-form">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                  <div class="col-12 mb-4">
+                    <label for="name" class="form-label"
+                      >Name<span>*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control check-out-input"
+                      id="name"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="companyName" class="form-label"
+                      >Company Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control check-out-input"
+                      id="companyName"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="streetAddress" class="form-label"
+                      >Street Address<span>*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control check-out-input"
+                      id="streetAddress"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="apartmentFloor" class="form-label"
+                      >Apartment, floor, etc. (optional)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control check-out-input"
+                      id="apartmentFloor"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="townCity" class="form-label"
+                      >Town/City<span>*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control check-out-input"
+                      id="townCity"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="phoneNumber" class="form-label"
+                      >Phone Number<span>*</span></label
+                    >
+                    <input
+                      type="number"
+                      class="form-control check-out-input"
+                      id="phoneNumber"
+                    />
+                  </div>
+                  <div class="col-12 mb-4">
+                    <label for="emailAddress" class="form-label"
+                      >Email Address<span>*</span></label
+                    >
+                    <input
+                      type="email"
+                      class="form-control check-out-input"
+                      id="emailAddress"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <div class="custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="checkOutCheckBox"
+                      />
+                      <label class="form-check-label" for="checkOutCheckBox"
+                        >Save this information for faster check-out next
+                        time</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead></thead>
+                    <tbody>
+                      <tr class="product-row">
+                        <th scope="row">
+                          <img
+                            src="./assets/images/products/gaming-console.png"
+                            alt="Gaming Console"
+                            class="img-fluid check-out-img"
+                          />
+                        </th>
+                        <td>H1 Gamepad</td>
+                        <td colspan="2">$<span>650</span></td>
+                      </tr>
+                      <tr class="product-row">
+                        <th scope="row">
+                          <img
+                            src="./assets/images/products/monitor.png"
+                            alt="LCD Monitor"
+                            class="img-fluid check-out-img"
+                          />
+                        </th>
+                        <td>LCD Monitor</td>
+                        <td colspan="2">$<span>1100</span></td>
+                      </tr>
+                      <tr class="amount-row">
+                        <th scope="row">Subtotal:</th>
+                        <td colspan="3">$<span>1750</span></td>
+                      </tr>
+                      <tr class="amount-row">
+                        <th scope="row">Shipping:</th>
+                        <td colspan="3">Free</td>
+                      </tr>
+                      <tr class="amount-row">
+                        <th scope="row">Total:</th>
+                        <td colspan="3">$<span>1750</span></td>
+                      </tr>
+                      <tr class="amount-row">
+                        <th scope="row">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="bankRadio"
+                              id="bankRadio"
+                              value="1"
+                            />
+                            <label class="form-check-label" for="bankRadio">
+                              Bank
+                            </label>
+                          </div>
+                        </th>
+                        <td colspan="3">
+                          <div class="mfs-container">
+                            <a href="#">
+                              <img
+                                src="./assets/images/mfs/bkash.png"
+                                alt="bKash Payment Logo"
+                              />
+                            </a>
+                            <a href="#">
+                              <img
+                                src="./assets/images/mfs/Visa.png"
+                                alt="Visa Payment Logo"
+                              />
+                            </a>
+                            <a href="#">
+                              <img
+                                src="./assets/images/mfs/Mastercard.png"
+                                alt="Mastercard Payment Logo"
+                              />
+                            </a>
+                            <a href="#">
+                              <img
+                                src="./assets/images/mfs/Nagad.png"
+                                alt="Nagad Payment Logo"
+                              />
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" colspan="3">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="codRadio"
+                              id="codRadio"
+                              value="2"
+                            />
+                            <label class="form-check-label" for="codRadio">
+                              Cash On Delivery
+                            </label>
+                          </div>
+                        </th>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <div class="coupon-container mb-3">
+                            <div class="coupon-input-wrapper">
+                              <input
+                                type="text"
+                                class="form-control coupon-input"
+                                placeholder="Coupon Code"
+                              />
+                            </div>
+
+                            <button class="theme-btn border-0" id="applyCoupon">
+                              Apply Coupon
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <button class="theme-btn border-0" type="submit" id="placeOder">
+                Place Order
+              </button>
+            </div>
+          </form>
+          <!-- Check Out Form Ends Here -->
+          <!-- Check Out Content Ends Here -->
+        </div>
+        <!-- Main Container Ends Here -->
+      </div>
+      <!-- Main Content Ends Here -->
+
+      <!-- Footer Starts Here -->
+      <footer>
+        <div class="container section-container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/logo/footer-logo.png"
+                      alt="Footer Logo"
+                      class="img-fluid mb-3"
+                    />
+                  </a>
+                  <p class="mb-2 footer-title">Subscribe</p>
+                  <p class="mb-3 footer-text">Get 10% off your first order</p>
+
+                  <div class="email-input-wrapper">
+                    <input
+                      type="email"
+                      class="form-control email-input"
+                      placeholder="Enter your email"
+                    />
+                    <button class="btn send-btn">
+                      <i class="bi bi-send"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-1 d-none d-lg-block"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <p class="mb-3 footer-title">Support</p>
+                  <ul>
+                    <li class="footer-text mb-2">
+                      111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="mailto:exclusive@gmail.com"
+                        >exclusive@gmail.com</a
+                      >
+                    </li>
+                    <li class="footer-text">
+                      <a href="tel:+88015-88888-9999">+88015-88888-9999</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-1 d-none d-lg-block"></div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="mb-3 footer-title">Account</p>
+                  <ul>
+                    <li class="footer-text mb-2">
+                      <a href="my-account.html">My Account</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="login.html">Login / Register</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="cart.html">Cart</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="wishlist.html">Wishlist</a>
+                    </li>
+                    <li class="footer-text">
+                      <a href="shop.html">Shop</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="mb-3 footer-title">Quick Link</p>
+                  <ul>
+                    <li class="footer-text mb-2">
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="terms-of-use.html">Terms Of Use</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="faq.html">FAQ</a>
+                    </li>
+                    <li class="footer-text mb-2">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <p class="mb-3 footer-title">Download App</p>
+                  <p class="footer-app-text">Save $3 with App New User Only</p>
+                  <div class="row mb-4">
+                    <div class="col-6">
+                      <img
+                        src="./assets/images/qr-code/qr-code.png"
+                        alt="Qr-Code"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <div class="row">
+                        <div class="col-12 p-0 mb-2">
+                          <a href="#">
+                            <img
+                              src="./assets/images/app-store/play-store.png"
+                              alt="Play Store Logo"
+                              class="img-fluid"
+                            />
+                          </a>
+                        </div>
+                        <div class="col-12 p-0">
+                          <a href="#">
+                            <img
+                              src="./assets/images/app-store/app-store.png"
+                              alt="Apple Store Logo"
+                              class="img-fluid"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="social-media-container">
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-breaker"></div>
+        <div class="copyright-container">
+          <p class="copyright-text">
+            &copy; Copyright Enayet Morshed Haque 2024. All rights reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- Footer Ends Here -->
+    </div>
+    <!-- Wrapper Ends Here -->
+
+    <!-- jQuery JS File -->
+    <script src="./assets/js/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap JS File -->
+    <script src="./assets/js/bootstrap-5/js/bootstrap.min.js"></script>
+
+    <!-- Popper JS CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme/theme.js"></script>
+  </body>
+</html>

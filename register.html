@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Commerce Figma Design</title>
+    <title>About Us | E-Commerce Figma Design</title>
 
     <!-- Favicons -->
     <link href="./assets/images/fav-icon/favicon.ico" rel="icon" />
@@ -26,6 +26,12 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Swiper CSS CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css"
+    />
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./assets/css/theme/theme.css" />
   </head>
@@ -39,7 +45,76 @@
       <!-- Main Content Starts Here -->
       <div class="content">
         <!-- Main Container Starts Here -->
-        <div class="container section-container"></div>
+        <div class="container section-container">
+          <!-- Register Section Starts Here -->
+          <section>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <img
+                  src="./assets/images/auth/auth.png"
+                  alt="Auth Image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-lg-2 d-none d-lg-block"></div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="auth-container">
+                  <p class="auth-heading">Create an account</p>
+                  <p class="auth-sub-text">Enter your details below</p>
+
+                  <form action="" class="register-form">
+                    <div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="emailOrPhone"
+                        placeholder="Email or Phone Number"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="d-grid gap-2 mb-4">
+                      <button
+                        type="submit"
+                        class="theme-btn border-0"
+                        id="register-btn"
+                      >
+                        Create Account
+                      </button>
+                      <button class="theme-btn google-btn">
+                        <img
+                          src="./assets/images/misc/Icon-Google.png"
+                          alt="Google Logo"
+                          class="img-fluid"
+                        />
+                        <p class="mb-0">Sign up with Google</p>
+                      </button>
+                    </div>
+                    <div class="register-footer">
+                      <p class="mb-0">Already have account?</p>
+                      <a href="login.html">Log in</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Register Section Ends Here -->
+        </div>
         <!-- Main Container Ends Here -->
       </div>
       <!-- Main Content Ends Here -->
@@ -200,6 +275,9 @@
 
     <!-- Bootstrap JS File -->
     <script src="./assets/js/bootstrap-5/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.js"></script>
 
     <!-- Popper JS CDN -->
     <script
